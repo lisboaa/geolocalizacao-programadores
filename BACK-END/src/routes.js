@@ -14,7 +14,7 @@ routes.post("/devs", async (request, response) => {
 
   const techsArray = techs.split(",").map(tech => tech.trim());
 
-  await Dev.create({
+  const dev = await Dev.create({
     github_username,
     name,
     avatar_url,
@@ -23,7 +23,7 @@ routes.post("/devs", async (request, response) => {
   });
 
   //continuar
-  return response.json({ message: "Fungou" });
+  return response.json(dev);
 });
 
 module.exports = routes;
