@@ -40,7 +40,69 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main></main>
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/36475975?s=460&v=4"
+                alt="Douglas Fernando"
+              />
+              <div className="user-info">
+                <strong>Douglas Fernando</strong>
+                <span>ReactJs, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Junior. Entusiasta de T.I.</p>
+            <a href="https://github.com/lisboaa">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/36475975?s=460&v=4"
+                alt="Douglas Fernando"
+              />
+              <div className="user-info">
+                <strong>Douglas Fernando</strong>
+                <span>ReactJs, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Junior. Entusiasta de T.I.</p>
+            <a href="https://github.com/lisboaa">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/36475975?s=460&v=4"
+                alt="Douglas Fernando"
+              />
+              <div className="user-info">
+                <strong>Douglas Fernando</strong>
+                <span>ReactJs, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Junior. Entusiasta de T.I.</p>
+            <a href="https://github.com/lisboaa">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/36475975?s=460&v=4"
+                alt="Douglas Fernando"
+              />
+              <div className="user-info">
+                <strong>Douglas Fernando</strong>
+                <span>ReactJs, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Junior. Entusiasta de T.I.</p>
+            <a href="https://github.com/lisboaa">Acessar perfil no Github</a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
