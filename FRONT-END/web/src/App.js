@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./global.css";
 import "./App.css";
+import "./Sidebar.css";
 /*
 Componente: Bloco isolado de HTML, CSS e JS, o qual não intefere no funciona
 no restante da aplicação.
